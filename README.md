@@ -1,7 +1,8 @@
+
+## Overview
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/one-shot-unsupervised-domain-adaptation-with/one-shot-unsupervised-domain-adaptation-on)](https://paperswithcode.com/sota/one-shot-unsupervised-domain-adaptation-on?p=one-shot-unsupervised-domain-adaptation-with)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/one-shot-unsupervised-domain-adaptation-with/one-shot-unsupervised-domain-adaptation-on-1)](https://paperswithcode.com/sota/one-shot-unsupervised-domain-adaptation-on-1?p=one-shot-unsupervised-domain-adaptation-with)
 
-## Overview
 
 Adapting a segmentation model from a labeled source
 domain to a target domain, where a single unlabeled datum
@@ -37,13 +38,11 @@ For more information on DATUM, please check our
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-@misc{benigmim2023oneshot,
-  title={One-shot Unsupervised Domain Adaptation with Personalized Diffusion Models}, 
-  author={Yasser Benigmim and Subhankar Roy and Slim Essid and Vicky Kalogeiton and Stéphane Lathuilière},
-  year={2023},
-  eprint={2303.18080},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV}
+@article{benigmim2023one,
+  title={One-shot Unsupervised Domain Adaptation with Personalized Diffusion Models},
+  author={Benigmim, Yasser and Roy, Subhankar and Essid, Slim and Kalogeiton, Vicky and Lathuili{\`e}re, St{\'e}phane},
+  journal={arXiv preprint arXiv:2303.18080},
+  year={2023}
 }
 ```
 
