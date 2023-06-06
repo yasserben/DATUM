@@ -72,8 +72,8 @@ sh tools/download_checkpoints.sh
 
 ## Setup Datasets
 
-**Cityscapes:** Please, download leftImg8bit_trainvaltest.zip and
-gt_trainvaltest.zip from [here](https://www.cityscapes-dataset.com/downloads/)
+**Cityscapes:** Please, download ***leftImg8bit_trainvaltest.zip*** and
+***gtFine_trainvaltest.zip*** from [here](https://www.cityscapes-dataset.com/downloads/)
 and extract them to `data/cityscapes`.
 
 **GTA:** Please, download all image and label packages from
@@ -139,21 +139,22 @@ the checkpoints will be stored in `logs/checkpoints/NAME_OF_EXPERIMENT`
 
 ### Data generation stage
 
-To convert your trained checkpoint to an inference pipeline :
+To convert all your trained checkpoints to inference pipelines :
 
 ```shell
 python convert_dreambooth.py --filepath NAME_OF_EXPERIMENT
 ```
 
-To generate the dataset :
+To generate the dataset using a specific checkpoint:
 
 ```shell
-python generate_dreambooth.py --filepath NAME_OF_EXPERIMENT
+python generate_dreambooth.py --filepath NAME_OF_EXPERIMENT --ckpt NUM_STEPS
 ```
 
 the generated dataset will be stored in `logs/images/NAME_OF_EXPERIMENT`
 
 ### Domain segmentation stage
+Create a symlink in `data` which points to the generated dataset stored in `logs/images/NAME_OF_EXPERIMENT`.
 
 To train **DAFormer+DATUM** on *GTA→Cityscapes* with the MiT-B5 encoder, please use the following command :
 
