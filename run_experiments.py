@@ -10,7 +10,7 @@ import subprocess
 import uuid
 from datetime import datetime
 import torch
-from DAFormer.experiments import generate_experiment_cfgs
+from experiments import generate_experiment_cfgs
 from mmcv import Config, get_git_hash
 from tools import train
 
