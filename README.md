@@ -38,10 +38,11 @@ For more information on DATUM, please check our
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-@article{benigmim2023one,
+@inproceedings{benigmim2023one,
   title={One-shot Unsupervised Domain Adaptation with Personalized Diffusion Models},
   author={Benigmim, Yasser and Roy, Subhankar and Essid, Slim and Kalogeiton, Vicky and Lathuili{\`e}re, St{\'e}phane},
-  journal={arXiv preprint arXiv:2303.18080},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={698--708},
   year={2023}
 }
 ```
