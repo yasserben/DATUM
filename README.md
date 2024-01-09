@@ -207,13 +207,13 @@ Below, we provide checkpoints of **DAFormer+DATUM**.
 Since the results in the paper are provided as the mean over three random one shot images,
 we provide the checkpoint with the median validation performance here:
 
-* [DAFormer+DATUM for GTA→Cityscapes](https://drive.google.com/file/d/14FQ6bwGRn00kFJmwwYafudQOWEiXqTko/view?usp=share_link)
-* [DAFormer+DATUM for Synthia→Cityscapes](https://drive.google.com/file/d/1QTQeiT3B1ixGy9fquBj26DGYXSXW3d1S/view?usp=share_link)
+* [DAFormer+DATUM for GTA→Cityscapes](https://drive.google.com/file/d/14FQ6bwGRn00kFJmwwYafudQOWEiXqTko/view?usp=sharing)
+* [DAFormer+DATUM for Synthia→Cityscapes](https://drive.google.com/file/d/1QTQeiT3B1ixGy9fquBj26DGYXSXW3d1S/view?usp=sharing)
 
 We also provide the checkpoints of HRDA+DATUM :
 
-* [HRDA+DATUM for GTA→Cityscapes](https://drive.google.com/file/d/1ktz4L9i4iA11WGH657VDA75Ekl9r6eXA/view?usp=share_link)
-* [HRDA+DATUM for Synthia→Cityscapes](https://drive.google.com/file/d/1qvZil3GBUHts5WMuXtMTy13mFIGGlo_-/view?usp=share_link)
+* [HRDA+DATUM for GTA→Cityscapes](https://drive.google.com/file/d/1ktz4L9i4iA11WGH657VDA75Ekl9r6eXA/view?usp=sharing)
+* [HRDA+DATUM for Synthia→Cityscapes](https://drive.google.com/file/d/1qvZil3GBUHts5WMuXtMTy13mFIGGlo_-/view?usp=sharing)
 
 The checkpoints come with the training logs. Please note that:
 
